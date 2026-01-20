@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X, NotebookPen, User, LogOut } from "lucide-react";
 import useAuth from "../hooks/useAuth.js";
-import { logoutUser } from "../api/authApi";
+import { logoutUser } from "../api/authApi.js";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
